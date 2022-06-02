@@ -136,7 +136,7 @@ function Checkout() {
       today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds()
     console.log(time)
     if (time > '20:00:00' || time < '08:00:00') {
-      navigate('/cart')
+      // navigate('/cart')
     }
     LoadOrderItem()
     // if (new DateTime())

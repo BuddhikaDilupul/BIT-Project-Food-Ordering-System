@@ -189,7 +189,7 @@ function Cart() {
       today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds()
     console.log(time)
     if (time > '20:00:00' || time < '08:00:00') {
-      shopCloseMessage()
+      // shopCloseMessage()
     }
   }, [response])
   if (isLoading) {
