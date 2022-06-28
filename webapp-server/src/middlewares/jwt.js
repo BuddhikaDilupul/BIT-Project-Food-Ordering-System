@@ -11,7 +11,6 @@ function authjwt() {
       { url: /\/api\/product(.*)/, methods: ['GET', 'OPTIONS'] }, //regx url for multiurl
       { url: /\/api\/category(.*)/, methods: ['GET', 'OPTIONS'] },
       { url: /\/api\/reset/, methods: ['POST', 'OPTIONS'] },
-      { url: /\/api\/customer/, methods: ['POST', 'OPTIONS'] }, //check this why i put here
       '/api/staff/login',
       '/api/staff/resetPassword',
       '/api/customer/login',
